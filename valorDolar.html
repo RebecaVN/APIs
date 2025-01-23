@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="favicon/favicon-32x32.png">
+  <link rel="stylesheet" href="css/dolar.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Valor do Dólar</title>
+</head>
+
+<body>
+  <a href="index.html" class="voltar" title="Voltar para o início">
+    <i class="fas fa-arrow-left"></i>
+  </a>
+
+  <main>
+    <div id="moeda" class="atualy">
+      <i class="fas fa-coins"></i>
+      Moeda Atual: <span>Dólar</span>
+    </div>
+
+    <div id="dolar" class="atual">
+      <i class="fas fa-dollar-sign"></i>
+      Valor do Dólar: <span>R$5,25</span>
+    </div>
+
+    <h3 class="titulo">
+      <i class="fas fa-calculator"></i>
+      CONVERTA OS VALORES:
+    </h3>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="botao">
+          <label>Dólar ($): <input type="number" id="num1" placeholder="Digite o valor"></label>
+          <label>Reais (R$): <span id="resultado"></span></label>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Projeto desenvolvido com <i class="fas fa-heart"></i> e <i class="fas fa-code"></i></p>
+  </footer>
+</body>
+
+<script src="js/dolar.js"></script>
+
+</html>
